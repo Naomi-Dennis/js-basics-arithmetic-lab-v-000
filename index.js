@@ -12,4 +12,4 @@ var ageIsValid = Number.isInteger(currentAge)
 var randomNumber = Math.floor( Math.random() * (20 - 0) )
 var randomInteger = Number.parseInt(randomNumber)
 var leading_zero = (randomInteger < 10) ? "0" + randomInteger : randomInteger
-var randomUserID = ( 10000000 + (randomInteger + 1) )
+var randomUserID = ( 10000000 + (randomInteger )
